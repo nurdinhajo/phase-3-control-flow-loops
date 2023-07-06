@@ -21,7 +21,6 @@ def fizzbuzz(num)
   end
 end
 
-require 'pry'
 def fizzbuzz_printer
   # your code here
   (1..100).each do |num|
@@ -36,7 +35,6 @@ def fizzbuzz_printer
     end
   end
 end
-binding.pry
 
 
 def reverse_string(str)
